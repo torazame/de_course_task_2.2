@@ -1,4 +1,6 @@
 object taskA_helloScala {
+
+  // Задание 3a
   def main(args: Array[String]): Unit = {
     val s: String = "Hello, world!"
     println(s)

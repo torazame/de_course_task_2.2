@@ -2,6 +2,7 @@ object taskB_salary {
   import io.StdIn.readInt
   import io.StdIn.readFloat
 
+  // Задание 3b
   def main(args: Array[String]): Unit = {
     def salaryCalc(yearly: Double, yearlyBonus: Double, foodComp: Int): Unit = {
       val monthlyBonus = yearlyBonus * 0.87 / 12
